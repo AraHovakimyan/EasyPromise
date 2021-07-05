@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C392D7AC263DD8B200F8F66B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C392D7AB263DD8B200F8F66B /* main.m */; };
+		C392D7B4263DDC0900F8F66B /* EasyPromise.mm in Sources */ = {isa = PBXBuildFile; fileRef = C392D7B3263DDC0900F8F66B /* EasyPromise.mm */; };
+		C392D81B263EB75100F8F66B /* EasyPromiseTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C392D81A263EB75100F8F66B /* EasyPromiseTest.m */; };
+		C392D821263EB79F00F8F66B /* EasyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = C392D7B2263DDC0900F8F66B /* EasyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C392D822263EB9E000F8F66B /* EasyPromise.mm in Sources */ = {isa = PBXBuildFile; fileRef = C392D7B3263DDC0900F8F66B /* EasyPromise.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C392D7A6263DD8B200F8F66B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C392D7A8263DD8B200F8F66B /* EasyPromise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EasyPromise; sourceTree = BUILT_PRODUCTS_DIR; };
+		C392D7AB263DD8B200F8F66B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C392D7B2263DDC0900F8F66B /* EasyPromise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyPromise.h; sourceTree = "<group>"; };
+		C392D7B3263DDC0900F8F66B /* EasyPromise.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EasyPromise.mm; sourceTree = "<group>"; };
+		C392D818263EB75100F8F66B /* EasyPromiseTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyPromiseTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C392D81A263EB75100F8F66B /* EasyPromiseTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyPromiseTest.m; sourceTree = "<group>"; };
+		C392D81C263EB75100F8F66B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C392D7A5263DD8B200F8F66B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C392D815263EB75100F8F66B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C392D79F263DD8B200F8F66B = {
+			isa = PBXGroup;
+			children = (
+				C392D7AA263DD8B200F8F66B /* EasyPromise */,
+				C392D819263EB75100F8F66B /* EasyPromiseTest */,
+				C392D7A9263DD8B200F8F66B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C392D7A9263DD8B200F8F66B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C392D7A8263DD8B200F8F66B /* EasyPromise */,
+				C392D818263EB75100F8F66B /* EasyPromiseTest.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C392D7AA263DD8B200F8F66B /* EasyPromise */ = {
+			isa = PBXGroup;
+			children = (
+				C392D7B2263DDC0900F8F66B /* EasyPromise.h */,
+				C392D7B3263DDC0900F8F66B /* EasyPromise.mm */,
+				C392D7AB263DD8B200F8F66B /* main.m */,
+			);
+			path = EasyPromise;
+			sourceTree = "<group>";
+		};
+		C392D819263EB75100F8F66B /* EasyPromiseTest */ = {
+			isa = PBXGroup;
+			children = (
+				C392D81A263EB75100F8F66B /* EasyPromiseTest.m */,
+				C392D81C263EB75100F8F66B /* Info.plist */,
+			);
+			path = EasyPromiseTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C392D820263EB79400F8F66B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C392D821263EB79F00F8F66B /* EasyPromise.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C392D7A7263DD8B200F8F66B /* EasyPromise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C392D7AF263DD8B200F8F66B /* Build configuration list for PBXNativeTarget "EasyPromise" */;
+			buildPhases = (
+				C392D820263EB79400F8F66B /* Headers */,
+				C392D7A4263DD8B200F8F66B /* Sources */,
+				C392D7A5263DD8B200F8F66B /* Frameworks */,
+				C392D7A6263DD8B200F8F66B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyPromise;
+			productName = EasyPromise;
+			productReference = C392D7A8263DD8B200F8F66B /* EasyPromise */;
+			productType = "com.apple.product-type.tool";
+		};
+		C392D817263EB75100F8F66B /* EasyPromiseTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C392D81F263EB75100F8F66B /* Build configuration list for PBXNativeTarget "EasyPromiseTest" */;
+			buildPhases = (
+				C392D814263EB75100F8F66B /* Sources */,
+				C392D815263EB75100F8F66B /* Frameworks */,
+				C392D816263EB75100F8F66B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyPromiseTest;
+			productName = EasyPromiseTest;
+			productReference = C392D818263EB75100F8F66B /* EasyPromiseTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C392D7A0263DD8B200F8F66B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Noknok;
+				TargetAttributes = {
+					C392D7A7263DD8B200F8F66B = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					C392D817263EB75100F8F66B = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = C392D7A3263DD8B200F8F66B /* Build configuration list for PBXProject "EasyPromise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C392D79F263DD8B200F8F66B;
+			productRefGroup = C392D7A9263DD8B200F8F66B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C392D7A7263DD8B200F8F66B /* EasyPromise */,
+				C392D817263EB75100F8F66B /* EasyPromiseTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C392D816263EB75100F8F66B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C392D7A4263DD8B200F8F66B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C392D7AC263DD8B200F8F66B /* main.m in Sources */,
+				C392D7B4263DDC0900F8F66B /* EasyPromise.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C392D814263EB75100F8F66B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C392D822263EB9E000F8F66B /* EasyPromise.mm in Sources */,
+				C392D81B263EB75100F8F66B /* EasyPromiseTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C392D7AD263DD8B200F8F66B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C392D7AE263DD8B200F8F66B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C392D7B0263DD8B200F8F66B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		C392D7B1263DD8B200F8F66B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		C392D81D263EB75100F8F66B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = EasyPromiseTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ara.hovakimyan.EasyPromise.EasyPromiseTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		C392D81E263EB75100F8F66B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = EasyPromiseTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ara.hovakimyan.EasyPromise.EasyPromiseTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C392D7A3263DD8B200F8F66B /* Build configuration list for PBXProject "EasyPromise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C392D7AD263DD8B200F8F66B /* Debug */,
+				C392D7AE263DD8B200F8F66B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C392D7AF263DD8B200F8F66B /* Build configuration list for PBXNativeTarget "EasyPromise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C392D7B0263DD8B200F8F66B /* Debug */,
+				C392D7B1263DD8B200F8F66B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C392D81F263EB75100F8F66B /* Build configuration list for PBXNativeTarget "EasyPromiseTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C392D81D263EB75100F8F66B /* Debug */,
+				C392D81E263EB75100F8F66B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C392D7A0263DD8B200F8F66B /* Project object */;
+}
