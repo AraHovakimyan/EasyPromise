@@ -68,6 +68,7 @@ catch:^(NSString* reason) {
     
 ### OR in Swift
     
+```swift
     let promise = EasyPromise()
     promise.then({
         result in
@@ -93,3 +94,4 @@ catch:^(NSString* reason) {
     })
  
     promise.resolve("result-1");
+```
