@@ -8,29 +8,31 @@ This project demonstrates the conceptual and fundamental characteristics of a Pr
 
 ```objectivec
 EasyPromise *promise = [[EasyPromise alloc] init];
-promise
-.then(^(NSString* result) {
+
+[[[promise then:^(id result) {
     // Waiting for a successfully completed process to print a string containing the result of the process.
     NSLog(@"Success with result : %@", result); // Success with result : result-0
     return @"result-1";
-})
-.then(^(NSString* result) {
+}]
+then:^(id result) {
     // Waiting for the previous process to complete successfully to print a string containing the result of the previous process.
     NSLog(@"Success with result : %@", result); // Success with result : result-1
     
     // Need to return something.
-    return  [NSNull null];;
-})
-.catch(^(NSString* reason) {
-    // Waiting for errors as a string containing the reason for the error. 
-    // This line is entered when a error occurs, in other words, 
+    return  [NSNull null];
+}]
+catch:^(NSString* reason) {
+    // Waiting for errors as a string containing the reason for the error.
+    // This line is entered when a error occurs, in other words,
     // when the function "reject" will be called, the reason for the error will be passed to it as an argument.
     NSLog(@"Error error with reason : %@", reason);
     
     // Need to return something.
     return [NSNull null];
-})
-[promise resolve:@"result-1"]; //@"result-0" of type NSString as resolved value.
+
+}];
+
+[promise resolve:@"result-1"];
 ```
     
 ### OR in Objective-C style
