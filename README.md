@@ -6,6 +6,7 @@ This project demonstrates the conceptual and fundamental characteristics of a Pr
 
 ## Examples
 
+    ```objectivec
     EasyPromise *promise = [[EasyPromise alloc] init];
     promise
     .then(^(NSString* result) {
@@ -30,6 +31,7 @@ This project demonstrates the conceptual and fundamental characteristics of a Pr
         return [NSNull null];
     })
     [promise resolve:@"result-1"]; //@"result-0" of type NSString as resolved value.
+    ```
     
 ### OR in Objective-C style
     
