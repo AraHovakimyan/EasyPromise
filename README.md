@@ -31,7 +31,6 @@ promise
 	return [NSNull null];
 })
 [promise resolve:@"result-1"]; //@"result-0" of type NSString as resolved value.
-```[promise resolve:@"result-1"]; //@"result-0" of type NSString as resolved value.
 ```
     
 ### OR in Objective-C style
