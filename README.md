@@ -29,7 +29,7 @@ promise.then({
 
 	// Need to return something.
 	return NSNull()
-})
+});
 
 promise.resolve("result-1");
 ```
